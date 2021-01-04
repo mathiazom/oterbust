@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mathias Oterhals Myklebust</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+
+  <!-- Vue development version -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+  <script async src="scripts/index.js"></script>
+
+</head>
+
+<body>
+  <div id="app">
+    <div id="main-container" class="align-middle">
+      <div class="pb-4">
+        <img id="profile-img" src="images/mathias.jpg" alt="" class="mx-auto d-block">
+        <p id=greeting class="display-1 text-center fw-bolder" title="Magisk hilsen drevet av Vue.js 🦄">
+          {{greeting}}
+        </p>
+        <noscript>
+          <style media="screen">
+            #greeting{
+              display: none;
+            }
+          </style>
+          <p class="display-1 text-center fw-bolder">
+            Hei!
+          </p>
+        </noscript>
+        <p class="fs-4 text-center fw-light">Mitt navn er <span class="ps-1 pe-1 ms-1 me-1 rounded text-white bg-success">Mathias</span>, og ved siden av <a class="text-decoration-none" href="https://radio.nrk.no/serie/radioresepsjonen">Radioresepsjonen</a> og <a class="text-decoration-none" href="https://www.reddit.com/r/tuckedinkitties/">r/tuckedinkitties</a> studerer jeg datateknologi ved NTNU i Trondheim.</p>
+        <div class="text-center mt-5">
+          <a href="https://github.com/Mathiazom/">
+            <i title="Min Github-profil" class="fab fa-github platform-button"></i>
+            <noscript>
+              Sjekk meg ut på Github!
+            </noscript>
+          </a>
+        </div>
+        <p class="text-center mt-5 font-monospace">Mathias<br>Oterhals<br>Myklebust</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
