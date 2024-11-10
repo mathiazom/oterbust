@@ -13,5 +13,10 @@ let app = new Vue({
                 return "God kveld!"
             }
         }
+    },
+    methods: {
+        navnaMåManJoHaMed() {
+            new Audio("mom.mp3").play();
+        }
     }
 })
